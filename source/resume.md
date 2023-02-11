@@ -65,7 +65,7 @@ Jira | Confluence | Figma | Miro | Notions | Lucidcharts
 ### Principal Engineer, 11:FS Group | <location> London </location> <time> May 2021 - Present </time>
 #### Foundry, [11fs.com/products/11fs-foundry](https://11fs.com/products/11fs-foundry)
 - Implemented the transaction aggregation with persistence.
-- Platforms - GCP | Infra - Terraform | CI/CD - Github Actions, ArgoCD, Kubernetes | Languages - Kotlin, Scala | Transports - REST, Kafka | Databases - Postgres, H2 | Frameworks - Exposed, Ktor, Arrow, Flyway
+- Platforms - GCP | Infra - Terraform | CI/CD - Github Actions, ArgoCD, Kubernetes | Languages - Kotlin, Scala | Transports - REST, GraphQL, Kafka | Databases - Postgres, H2 | Frameworks - Exposed, Ktor, Arrow, Flyway
 
 #### Venture project template, [11fs.com](https://11fs.com)
 - Implemented a backend project template for future client engagement.
@@ -76,7 +76,7 @@ Jira | Confluence | Figma | Miro | Notions | Lucidcharts
 - Developed the backend-for-frontend service that served onboarding, wallet, buy/sell and account flows. 
 - Integrated with Taxbit [apidocs.taxbit.com](https://apidocs.taxbit.com/) to report transactions and to download W9 documents. 
 - Configured and implemented retrying anddead lettering mechanism using RabbitMQ. 
-- Platforms - AWS | Infra - EKS, Terraform | CI/CD - Github Actions, Kubernetes | Languages - Kotlin, Python | Transports - REST, Kafka, RabbitMQ, SQS, SNS, AMQP, files | Databases - Postgres | Frameworks - JDBI, Micronaut, Flyway
+- Platforms - AWS | Infra - Terraform | CI/CD - Github Actions, Kubernetes | Languages - Kotlin, Python | Transports - REST, Kafka, RabbitMQ, SQS, SNS, AMQP, files | Databases - Postgres | Frameworks - JDBI, Micronaut, Flyway
 
 ### Tech Lead, N26 | <location>Barcelona</location> <time> Mar 2019 - May 2021 </time>
 #### Product Service [www.n26.com](http://www.n26.com)
@@ -84,7 +84,7 @@ Jira | Confluence | Figma | Miro | Notions | Lucidcharts
 - Split the monolithic service into microservices, and each microservice went through CQRS analysis and event storming to re-define the bounded-contexts.
 - Conducted event-driven design, hexagonal architecture, and domain-driven design principles in the re-architecting.
 - Designed and run A/B testing in verifying product ideas before fully invested in full solutions. 
-- Platforms - AWS | Infra - EKS, Terraform | CI/CD - Jenkins, Kubernetes | Languages - Kotlin, Java | Transports - REST, Kafka, Kinesis, SQS, SNS | Databases - Postgres, Metabase | Frameworks - Spring Boot, Arrow, Flyway
+- Platforms - AWS | Infra - Terraform | CI/CD - Jenkins, Kubernetes | Languages - Kotlin, Java | Transports - REST, Kafka, Kinesis, SQS, SNS | Databases - Postgres, Metabase | Frameworks - Spring Boot, Arrow, Flyway
 
 ### Technical Lead, IG Group | <location> London </lcation> <time> Jun 2015 - Mar 2019 </time>
 #### Spectrum Markets [spectrum-markets.com](https://spectrum-markets.com)
@@ -113,7 +113,7 @@ down to sub-milliseconds.
 - Worked as a part of the global team including New York, Singapore and India. 
 - Introduced the feature in the GUI to support Sterling swaps with multi-legs. Added the support for IMM and MAC swaps. Fixed urgent bugs and investigated queries from traders.
 - Worked with traders on urgent issues and GUI upgrade. The GUI was written in Java/Swing/JIDE.
-- Platforms - Bare Metal | Languages - Java | Transports - REST, JMS | Frameworks - Spring, Swing, JIDE
+- Platforms - Bare Metal | Languages - Java | Transports - REST, JMS | Frameworks - Swing, JIDE
 
 ### Technical Lead, IG Index | <location> London </location> <time> April 2008 - Oct 2013 </time>
 #### NADEX [nadex.com](https://www.nadex.com)
@@ -131,7 +131,7 @@ down to sub-milliseconds.
 - The first internet-based futures exchange regulated by CFTC in Chicago. 
 - This n-tier J2EE system consists of a Designated Contract Market (Exchange), a Derivatives Clearing Organisation (Clearing House), FIX connectivity for Order Entry and Market Data, and a JSP / Servlet website. 
 - Analysed and re-architected to boost trading throughput from 20 orders per second to 1000.
-- Platforms - Bare Metal, Weblogic | CI/CD - Bamboo | Languages - Java | Transports - HTTP, JMS, RFA, FIX | Databases - Oracle | Frameworks - Spring, JSP, Servlet
+- Platforms - Bare Metal, Weblogic | CI/CD - Bamboo | Languages - Java | Transports - HTTP, JMS, RFA, FIX | Databases - Oracle | Frameworks - JSP, Servlet
 
 ### Systems Analyst, Hong Kong Housing Authority | <location> Hong Kong </location> <time> Sep 2006 - Dec 2007 </time>
 #### Domestic Tenancy Management System
@@ -161,7 +161,7 @@ down to sub-milliseconds.
 ### Software Specialist, Intelligence Plus Limited | <location> Hong Kong </location> <time> Jul 2001 - Oct 2002 </time>
 #### Learning Plus
 - A Core Java e-learning system using mySQL, JDBC, Swing, Java2D, multi-threading, and UML.
-- Languages - Java | Databases - mySQL | Frameworks - Spring, Servlet
+- Languages - Java | Databases - mySQL | Frameworks - Swing, Java2D, Servlet
 
 ## Education
 ### The Chinese University of Hong Kong | <location> Hong Kong </location> <time> 2004 - 2006 </time>
