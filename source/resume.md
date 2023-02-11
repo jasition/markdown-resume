@@ -35,7 +35,7 @@ Kotlin | Core Java | Bash | SQL | PL/SQL
 Spring Boot | Micronaut | Ktor | Arrow | Disruptor | Flyway | Exposed | Jooq | JDBI | Resilience4J | Jupiter | Kotest | Mockk | Testcontainers
 
 ### Transports
-REST | GraphQL | Rabbit MQ | Kafka | Confinity Low-latency Messaging | RFA | TREP | FIX | Quickfix | Amazon Kinesis | SQS| SNS | Protobuf | Avro | Json
+REST | GraphQL | Rabbit MQ | Kafka | Confinity Low-latency Messaging | RFA | TREP | FIX | Quickfix | Kinesis | SQS | SNS | Protobuf | Avro | Json
 
 ### Databases
 Oracle | mySQL | Postgres | Invision | InfluxDB | Metabase
@@ -72,11 +72,11 @@ Jira | Confluence | Figma | Miro | Notions | Lucidcharts
 - Platforms - Azure | Infra - AKS, Terraform | CI/CD - Gitlab CI, ArgoCD, Kustomize | Languages - Kotlin | Transports - REST, GraphQL, Kafka | Databases - Postgres | Frameworks - Exposed, Spring Boot, Flyway
 
 #### NYDIG, [nydig.com](https://nydig.com)
-- Designed and built the Bitcoin saving product with MVB Financial Corp [mvbbanking.com](mvbbanking.com/). Integrated with the core banking system via Helix API [docs.helix.q2.com](docs.helix.q2.com), in order that employees' salary was paid in Bitcoin.
+- Designed and built the Bitcoin saving product with MVB Financial Corp [mvbbanking.com](https://mvbbanking.com/). Integrated with the core banking system via Helix API [docs.helix.q2.com](https://docs.helix.q2.com), in order that employees' salary was paid in Bitcoin.
 - Developed the backend-for-frontend service that served onboarding, wallet, buy/sell and account flows. 
-- Integrated with Taxbit [apidocs.taxbit.com](apidocs.taxbit.com) to report transactions and to download W9 documents. 
+- Integrated with Taxbit [apidocs.taxbit.com](https://apidocs.taxbit.com/) to report transactions and to download W9 documents. 
 - Configured and implemented retrying anddead lettering mechanism using RabbitMQ. 
-- Platforms - AWS | Infra - EKS, Terraform | CI/CD - Github Actions, Kubernetes | Languages - Kotlin, Python | Transports - REST, Kafka, RabbitMQ, AMQP, files | Databases - Postgres | Frameworks - JDBI, Micronaut, Flyway
+- Platforms - AWS | Infra - EKS, Terraform | CI/CD - Github Actions, Kubernetes | Languages - Kotlin, Python | Transports - REST, Kafka, RabbitMQ, SQS, SNS, AMQP, files | Databases - Postgres | Frameworks - JDBI, Micronaut, Flyway
 
 ### Tech Lead, N26 | <location>Barcelona</location> <time> Mar 2019 - May 2021 </time>
 #### Product Service [www.n26.com](http://www.n26.com)
@@ -131,13 +131,13 @@ down to sub-milliseconds.
 - The first internet-based futures exchange regulated by CFTC in Chicago. 
 - This n-tier J2EE system consists of a Designated Contract Market (Exchange), a Derivatives Clearing Organisation (Clearing House), FIX connectivity for Order Entry and Market Data, and a JSP / Servlet website. 
 - Analysed and re-architected to boost trading throughput from 20 orders per second to 1000.
-- Platforms - Bare Metal, Weblogic | CI/CD - Bamboo | Languages - Java | Transports - HTTP, JMS, RFA, FIX | Databases - Oracle | Frameworks - Spring
+- Platforms - Bare Metal, Weblogic | CI/CD - Bamboo | Languages - Java | Transports - HTTP, JMS, RFA, FIX | Databases - Oracle | Frameworks - Spring, JSP, Servlet
 
 ### Systems Analyst, Hong Kong Housing Authority | <location> Hong Kong </location> <time> Sep 2006 - Dec 2007 </time>
 #### Domestic Tenancy Management System
 - Led a team of 4 engineers to analyse, design and develop a n-tier J2EE housing management system using Websphere and DB2, with agile methodologies and Paired Programming. 
 - Gathered user requirements.
-- Platforms - Bare Metal, Websphere | Languages - Java | Transports - HTTP, JMS | Databases - DB2 | Frameworks - Spring
+- Platforms - Bare Metal, Websphere | Languages - Java | Transports - HTTP, JMS | Databases - DB2
 
 ### Technical Analyst, OOCL Limited | <location> Hong Kong </location> <time> Jul 2005 - Sep 2006 </time>
 #### Real-time Event Engine
@@ -146,14 +146,14 @@ down to sub-milliseconds.
 - Platforms - Bare Metal, Weblogic | Languages - Java, PL/SQL | Transports - HTTP, JMS | Databases - Oracle
 
 ### Systems Analyst, Peopleware Systems Limited <location> Hong Kong </location> <time> May 2004 - Jul 2005 </time>
-#### Clearing House System of the Trans Link Systems. 
+#### Clearing House System of the Trans Link Systems
 - The national public transport backoffice system in The Netherlands.
 - Led the team of 2 engineers on this n-tier J2EE system used Weblogic and Oracle. 
 - Enhanced the multi-threaded framework to complete clearing and settlement for 16 million transactions within 2 hours.
-- Platforms - Bare Metal, Weblogic | Languages - Java | Transports - HTTP, JMS | Databases - Oracle, Spring
+- Platforms - Bare Metal, Weblogic | Languages - Java | Transports - HTTP, JMS | Databases - Oracle
 
 ### Software Engineer, Agile Software | <location> Hong Kong </location> <time> Oct 2002 - May 2004 </time>
-#### Product Lifecycle Management [oracle.com/uk/scm/product-lifecycle-management](https://www.oracle.com/uk/scm/product-lifecycle-management). 
+#### Product Lifecycle Management [oracle.com/uk/scm/product-lifecycle-management](https://www.oracle.com/uk/scm/product-lifecycle-management)
 - Led a team of 3 engineers working on a n-tier J2EE content management system based on Weblogic and Oracle. 
 - Enhanced the proprietary distributed object cache and reduced application response time by 30%.
 - Platforms - Bare Metal, Weblogic | Languages - Java | Transports - HTTP, JMS | Databases - Oracle
@@ -161,7 +161,7 @@ down to sub-milliseconds.
 ### Software Specialist, Intelligence Plus Limited | <location> Hong Kong </location> <time> Jul 2001 - Oct 2002 </time>
 #### Learning Plus
 - A Core Java e-learning system using mySQL, JDBC, Swing, Java2D, multi-threading, and UML.
-- Languages - Java | Databases - mySQL
+- Languages - Java | Databases - mySQL | Frameworks - Spring, Servlet
 
 ## Education
 ### The Chinese University of Hong Kong | <location> Hong Kong </location> <time> 2004 - 2006 </time>
