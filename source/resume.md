@@ -50,7 +50,7 @@ Github | Gitlab | Bitbucket | Perforce
 Gradle | Maven | Docker | Kubectl | Github Actions | Gitlab CI | Jenkins | Bamboo | ArgoCD | Kubernetes | Kustomize | Helm
 
 ### Infrastructure / Observability
-Terraform | CDKTF | DataDog | Kibana | Splunk | PagerDuty | Opsgenie
+Terraform | CDKTF | Kibana | Splunk | Grafana | DataDog | PagerDuty | Opsgenie
 
 ### Platforms / OS
 AWS | Azure | GCP | Bare Metal | Mac OSX | Linux | Windows
