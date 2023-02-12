@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="resume.css">
 
-<span class="name">Tsz Shun Chow (Jason)</span>
+<span class="name">Tsz Shun (Jason) Chow</span>
 
 <span class="info">
 
